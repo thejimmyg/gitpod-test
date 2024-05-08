@@ -6,7 +6,7 @@
 
 2. Set up a workspace on GitPod and link your repository.
 
-3. In the GitPod terminal run these commands to link your Go module into the location Go expects. **WARNING: You must follow the step to link your project git repo into ~/go/pkg/<repopath>` using the `ln` command below otherwise the go tools won't work properly.**
+3. In the GitPod terminal run these commands to link your Go module into the location Go expects. **WARNING: You must follow the step to link your project git repo into `~/go/pkg/<repopath>` using the `ln` command below otherwise the go tools won't work properly.**
 
 ```sh
 gitpod /workspace/gitpod-test (main) $ pwd
@@ -44,7 +44,7 @@ gitpod /workspace/gitpod-test (main) $ go run cmd/main.go
 
 ## Getting started on a physical machine
 
-1. Create a git repo on GitHub - mine is called `github.com/thejimmyg/gitpod-test` and initialise it locally in the `~/go/pkg` directory. **WARNING: You must keep your git repos in the right place in ~/go/pkg/<repopath>` (or link them there) otherwise the go tools won't work properly.**
+1. Create a git repo on GitHub - mine is called `github.com/thejimmyg/gitpod-test` and initialise it locally in the `~/go/pkg` directory. **WARNING: You must keep your git repos in the right place in `~/go/pkg/<repopath>` (or link them there) otherwise the go tools won't work properly.**
 
 ```sh
 $ mkdir -p ~go/pkg/github.com/thejimmyg/gitpod-test
